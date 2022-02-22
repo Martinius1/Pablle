@@ -9,6 +9,7 @@ import { LogsComponent } from './pages/logs/logs.component';
 import { RequestsComponent } from './pages/requests/requests.component';
 import { ComputersComponent } from './pages/computers/computers.component';
 import { SearchBarComponent } from './compoments/search-bar/search-bar.component';
+import { ConfigEditComponent } from './pages/dashboard/config-edit/config-edit.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SearchBarComponent } from './compoments/search-bar/search-bar.component
     LogsComponent,
     RequestsComponent,
     ComputersComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    ConfigEditComponent
   ],
   imports: [
     BrowserModule,
