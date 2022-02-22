@@ -1,0 +1,29 @@
+.application{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  height: 100%;
+
+.Menu{
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  height: 100%;
+  width: 20vw;
+  padding: 10px;
+
+  button{
+  background-color: #626262;
+  color: white;
+
+  }
+}
+
+
+
+.content{
+  flex:1 6 100%;
+  padding: 15px;
+}
+}
