@@ -10,6 +10,7 @@ import { RequestsComponent } from './pages/requests/requests.component';
 import { ComputersComponent } from './pages/computers/computers.component';
 import { SearchBarComponent } from './compoments/search-bar/search-bar.component';
 import { ConfigEditComponent } from './pages/dashboard/config-edit/config-edit.component';
+import { SideBarComponent } from './compoments/side-bar/side-bar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ConfigEditComponent } from './pages/dashboard/config-edit/config-edit.c
     RequestsComponent,
     ComputersComponent,
     SearchBarComponent,
-    ConfigEditComponent
+    ConfigEditComponent,
+    SideBarComponent
   ],
   imports: [
     BrowserModule,
