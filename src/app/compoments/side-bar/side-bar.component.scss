@@ -1,0 +1,15 @@
+.Menu{
+  background-color: lightgrey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100%;
+  padding: 10px;
+  transition: all 0.5s ease;
+  button{
+    background-color: #626262;
+    color: white;
+
+  }
+}

@@ -1,37 +1,49 @@
-div{
-  height: 100%;
-  .div1{
-    background-color: black;
-      .config-name{
-        float: left;
-        width: 35vw;
-        background-color: aqua;
-      }
-      .config-add-name{
-        float:left;
-        background-color: orange;
-        width: 35vw;
-      }
+.whole-page{
+  border-right:solid black 2px;
+  height: 94.5%;
+  width: 70%;
+  .config-name{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    border-bottom: solid black 2px ;
+    .Config-name-label{
+      padding-right: 14vw;
+      font-size: 25px;
+    }
   }
-  .div2{
-      .div2-1{
-
-      }
-      .div2-2{
-
-      }
+  .druhy-div{
+    border-bottom: solid black 2px;
+    margin-top: 7vh;
+    display: flex;
+    align-items: center;
+    .jedna{
+      float:left;
+      font-size: 25px;
+      padding-right: 13vw;
+    }
+    .dva{
+      justify-content: right !important;
+      float:right;
+    }
   }
-  .div3{
-    background-color: black;
 
-  }
+
+
+
 }
 
-.left{
 
+
+
+
+
+
+
+.treti-pad{
+  padding-right: 11.5vw !important;
 }
 
-right{
-
+.border-delete{
+  border: none !important;
 }
-

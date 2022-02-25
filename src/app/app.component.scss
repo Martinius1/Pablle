@@ -6,24 +6,22 @@
 
 .Menu{
   background-color: lightgrey;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
   height: 100%;
-  width: 20vw;
   padding: 10px;
-
+  transition: all 0.5s ease;
   button{
   background-color: #626262;
   color: white;
 
   }
 }
-
-
-
 .content{
   flex:1 6 100%;
   padding: 15px;
+  padding-left: 16%;
 }
 }
