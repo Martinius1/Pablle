@@ -13,6 +13,8 @@ import { ConfigEditComponent } from './pages/dashboard/config-edit/config-edit.c
 import { SideBarComponent } from './compoments/side-bar/side-bar.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ConfigScheduleComponent } from './pages/dashboard/config-schedule/config-schedule.component';
+import { MsgLogsComponent } from './pages/logs/msg-logs/msg-logs.component';
+import { AlertLogComponent } from './pages/logs/alert-log/alert-log.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ConfigScheduleComponent } from './pages/dashboard/config-schedule/confi
     ConfigEditComponent,
     SideBarComponent,
     LoginComponent,
-    ConfigScheduleComponent
+    ConfigScheduleComponent,
+    MsgLogsComponent,
+    AlertLogComponent
   ],
   imports: [
     BrowserModule,
