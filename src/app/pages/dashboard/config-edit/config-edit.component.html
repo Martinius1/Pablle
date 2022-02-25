@@ -1,25 +1,86 @@
-<div>
-   <div class="div1">
-     <div class="left config-name">a</div>
-     <div class="right config-add-name">b</div>
+<div class="whole-page">
+  <div class="config-name">
+    <label for="textbox" class="Config-name-label">Config Name</label>
+    <input type="text" id="textbox" name="textbox" value="TEXT" style="width: 30vw">
+  </div>
+  <div class="druhy-div">
+    <div class="jedna">
+      <label for="textbox" class="Config-name-label table-bordered">Add Computer</label>
+    </div>
+    <div class="dva">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col" class="border-delete">Client</th>
+        </tr>
+        </thead>
+        <tbody class="border-delete">
+        <tr >
+          <input type="text" id="clientname" name="clientname" value="Name">
+        </tr>
+        <tr>
+          <input type="text" id="clientIP" name="clientIP" value="IP">
+        </tr>
+        </tbody>
+      </table>
+    </div>
    </div>
 
-  <div class="div2">
 
-    <div class="div2-1">
-      <div class="left computer-name">c</div>
-      <div class="right computer-select">d</div>
+
+
+  <div class="treti-div">
+    <div class="druhy-div">
+      <div class="jedna treti-pad">
+        <label for="textbox" class="Config-name-label table-bordered">Add Source Path</label>
+      </div>
+      <div class="dva ">
+        <table class="table">
+          <thead>
+          <tr>
+            <th scope="col" class="border-delete" id="name">source path</th>
+          </tr>
+          </thead>
+          <tbody class="border-delete">
+          <tr >
+            <input type="text" id="first" name="Path" value="first path">
+          </tr>
+          <tr>
+            <input type="text" id="second" name="clientIP" value="second path">
+          </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-
-    <div class="div2-2">
-      <div class="left">   </div>
-      <div class="right">   </div>
-    </div>
-
   </div>
 
-  <div class="div3">
-      <div class="left">e</div>
-      <div class="right">f</div>
+  <div>
+    <div class="druhy-div border-delete">
+      <div class="jedna treti-pad">
+        <label for="textbox" class="Config-name-label table-bordered">Destination Path</label>
+      </div>
+      <div class="dva ">
+        <table class="table">
+          <thead>
+          <tr>
+            <th scope="col" class="border-delete" id="dest-path">destination path</th>
+          </tr>
+          </thead>
+          <tbody class="border-delete">
+          <tr >
+            <input type="text" id="des-path-first" name="Path" value="first path">
+          </tr>
+          <tr>
+            <input type="text" id="des-path-second" name="clientIP" value="second path">
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
+
+
+
+
+
 </div>
