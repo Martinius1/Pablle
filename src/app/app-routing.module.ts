@@ -5,8 +5,12 @@ import {LogsComponent} from "./pages/logs/logs.component";
 import {ComputersComponent} from "./pages/computers/computers.component";
 import {RequestsComponent} from "./pages/requests/requests.component";
 import {ConfigEditComponent} from "./pages/dashboard/config-edit/config-edit.component";
+import {LoginComponent} from "./pages/login/login.component";
+import {ConfigScheduleComponent} from "./pages/dashboard/config-schedule/config-schedule.component";
 
 const routes: Routes = [
+  {path: '',
+  component: LoginComponent},
   {path: 'configurations',
     component: DashboardComponent},
   {path: 'logs',
@@ -16,7 +20,9 @@ const routes: Routes = [
   {path: 'requests',
   component: RequestsComponent},
   {path: 'configurations/configedit',
-  component: ConfigEditComponent}
+  component: ConfigEditComponent},
+  {path: 'configurations/configschedule',
+  component: ConfigScheduleComponent}
 ];
 
 @NgModule({
