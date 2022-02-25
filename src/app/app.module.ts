@@ -11,6 +11,7 @@ import { ComputersComponent } from './pages/computers/computers.component';
 import { SearchBarComponent } from './compoments/search-bar/search-bar.component';
 import { ConfigEditComponent } from './pages/dashboard/config-edit/config-edit.component';
 import { SideBarComponent } from './compoments/side-bar/side-bar.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SideBarComponent } from './compoments/side-bar/side-bar.component';
     ComputersComponent,
     SearchBarComponent,
     ConfigEditComponent,
-    SideBarComponent
+    SideBarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

@@ -5,8 +5,11 @@ import {LogsComponent} from "./pages/logs/logs.component";
 import {ComputersComponent} from "./pages/computers/computers.component";
 import {RequestsComponent} from "./pages/requests/requests.component";
 import {ConfigEditComponent} from "./pages/dashboard/config-edit/config-edit.component";
+import {LoginComponent} from "./pages/login/login.component";
 
 const routes: Routes = [
+  {path: '',
+  component: LoginComponent},
   {path: 'configurations',
     component: DashboardComponent},
   {path: 'logs',
