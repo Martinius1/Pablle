@@ -6,6 +6,7 @@ import {ComputersComponent} from "./pages/computers/computers.component";
 import {RequestsComponent} from "./pages/requests/requests.component";
 import {ConfigEditComponent} from "./pages/dashboard/config-edit/config-edit.component";
 import {LoginComponent} from "./pages/login/login.component";
+import {ConfigScheduleComponent} from "./pages/dashboard/config-schedule/config-schedule.component";
 
 const routes: Routes = [
   {path: '',
@@ -19,7 +20,9 @@ const routes: Routes = [
   {path: 'requests',
   component: RequestsComponent},
   {path: 'configurations/configedit',
-  component: ConfigEditComponent}
+  component: ConfigEditComponent},
+  {path: 'configurations/configschedule',
+  component: ConfigScheduleComponent}
 ];
 
 @NgModule({
