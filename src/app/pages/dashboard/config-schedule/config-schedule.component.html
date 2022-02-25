@@ -1,19 +1,8 @@
 <app-side-bar></app-side-bar>
-
-<div>
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-      Dropdown button
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-    </ul>
-  </div>
-</div>
+<button class="mat-button" (click)=toogleTag() >Switch Time Input</button>
 
 
+<div *ngIf="showMe!=false">weekly</div>
 
-<div id="weekly">weekly</div>
-<div id="monthly">monthly</div>
+<div *ngIf="showMe==false">monthly</div>
+

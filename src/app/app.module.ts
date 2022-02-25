@@ -15,6 +15,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { ConfigScheduleComponent } from './pages/dashboard/config-schedule/config-schedule.component';
 import { MsgLogsComponent } from './pages/logs/msg-logs/msg-logs.component';
 import { AlertLogComponent } from './pages/logs/alert-log/alert-log.component';
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { AlertLogComponent } from './pages/logs/alert-log/alert-log.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
