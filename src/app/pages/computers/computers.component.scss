@@ -1,0 +1,83 @@
+
+
+.table{
+  width: 55vw;
+  margin-left: 27vw;
+  .table-bordered{
+
+    width: 55vw;
+    margin-left: 27vw;
+  }
+}
+.computers-buttons{
+  width: 26vw;
+  height: 40vw;
+  position: absolute;
+  top: 8vw;
+  left: 0;
+  font-size: 1.5vw;
+
+  .button-add-group{
+    width: 20vw;
+    height: 4vw;
+    margin-top: 1vw;
+    align-items: center;
+    position: absolute;
+    top: 1.3vw;
+    left: 17vw;
+    background-color: #A4A4A4;
+    color: white;
+
+  }
+  .button-edit-group{
+    width: 20vw;
+    height: 4vw;
+    margin-top: 1vw;
+    align-items: center;
+    position: absolute;
+    top: 35vw;
+    left: 17vw;
+    background-color: #A4A4A4;
+    color: white;
+  }
+
+
+}
+.button-all-computers{
+  width: 20vw;
+  height: 4vw;
+  margin-top: 1vw;
+  align-items: center;
+  position: absolute;
+  top: 1.3vw;
+  left: 17vw;
+  font-size: 1.5vw;
+  background-color: #A4A4A4;
+  color: white;
+
+}
+
+.card-background{
+  background-color: #EEEEEE;
+  height: 6%;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  border: 4px solid darkgrey;
+  width: 12vw;
+
+  margin-top: 3vh;
+  margin-left: 1vw;
+
+
+  .pc-header{
+    font-size: 1vw;
+    margin-left: 1.3vw;
+    margin-top: 1.5vh;
+
+
+  }
+
+
+}
+
