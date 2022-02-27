@@ -16,6 +16,7 @@ import { ConfigScheduleComponent } from './pages/dashboard/config-schedule/confi
 import { MsgLogsComponent } from './pages/logs/msg-logs/msg-logs.component';
 import { AlertLogComponent } from './pages/logs/alert-log/alert-log.component';
 import {MatButtonModule} from "@angular/material/button";
+import { ConfigTypeComponent } from './pages/dashboard/config-type/config-type.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import {MatButtonModule} from "@angular/material/button";
     LoginComponent,
     ConfigScheduleComponent,
     MsgLogsComponent,
-    AlertLogComponent
+    AlertLogComponent,
+    ConfigTypeComponent
   ],
   imports: [
     BrowserModule,

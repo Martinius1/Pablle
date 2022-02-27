@@ -9,6 +9,7 @@ import {LoginComponent} from "./pages/login/login.component";
 import {ConfigScheduleComponent} from "./pages/dashboard/config-schedule/config-schedule.component";
 import {MsgLogsComponent} from "./pages/logs/msg-logs/msg-logs.component";
 import {AlertLogComponent} from "./pages/logs/alert-log/alert-log.component";
+import {ConfigTypeComponent} from "./pages/dashboard/config-type/config-type.component";
 
 const routes: Routes = [
   {path: '',
@@ -25,6 +26,8 @@ const routes: Routes = [
   component: ConfigEditComponent},
   {path: 'configurations/configschedule',
   component: ConfigScheduleComponent},
+  {path: ConfigTypeComponent,
+  component: 'configurations/configtype'},
   {path: 'logs/messages',
   component: MsgLogsComponent},
   {path: 'logs/alert',
