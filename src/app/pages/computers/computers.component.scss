@@ -66,11 +66,12 @@
 
 .card-background{
   background-color: #EEEEEE;
-  height: 6%;
-  position: fixed;
+  height: 6%;;
   border: 4px solid darkgrey;
   width: 12vw;
-  padding: 10px;
+
+  margin-left: 17vw;
+  margin-top: 3vh;
 
 
   .pc-header{
@@ -84,3 +85,9 @@
 
 }
 
+
+
+.posun-anonym{
+  margin-top: 23vh;
+
+}
