@@ -11,12 +11,15 @@ import {MsgLogsComponent} from "./pages/logs/msg-logs/msg-logs.component";
 import {AlertLogComponent} from "./pages/logs/alert-log/alert-log.component";
 import {ConfigTypeComponent} from "./pages/dashboard/config-type/config-type.component";
 import {CreateGroupComponent} from "./pages/computers/create-group/create-group.component";
+import {DashboardSampleComponent} from "./pages/dashboard/dashboard-sample/dashboard-sample.component";
 
 const routes: Routes = [
   {path: '',
   component: LoginComponent},
   {path: 'configurations',
     component: DashboardComponent},
+  {path: 'configurations/sample',
+  component: DashboardSampleComponent},
   {path: 'logs',
   component: LogsComponent},
   {path: 'computers',
