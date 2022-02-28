@@ -18,6 +18,7 @@ import { AlertLogComponent } from './pages/logs/alert-log/alert-log.component';
 import {MatButtonModule} from "@angular/material/button";
 import { ConfigTypeComponent } from './pages/dashboard/config-type/config-type.component';
 import { CreateGroupComponent } from './pages/computers/create-group/create-group.component';
+import { DashboardSampleComponent } from './pages/dashboard/dashboard-sample/dashboard-sample.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { CreateGroupComponent } from './pages/computers/create-group/create-grou
     MsgLogsComponent,
     AlertLogComponent,
     ConfigTypeComponent,
-    CreateGroupComponent
+    CreateGroupComponent,
+    DashboardSampleComponent
   ],
   imports: [
     BrowserModule,
