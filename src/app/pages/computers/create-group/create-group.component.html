@@ -1,8 +1,62 @@
 <app-side-bar></app-side-bar>
-<div class="group-name">
-  <label for="textbox" class="group-name-label">Group Name :</label>
-  <input type="text" id="textbox" class="name-imput" name="textbox" placeholder="Name" style="width: 30vw">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <label for="textbox" class="group-name-label">Group Name:</label>
+    </div>
+    <div class="col-8">
+      <input type="text" id="textbox" class="name-imput" name="textbox" placeholder="Name" style="width: 30vw">
+    </div>
+  </div>
+  <div class="row">
+    <div style="margin-top: 3vh"></div>
+    <div class="col">
+      <label for="textbox" class="group-name-label">Computers:</label>
+    </div>
+    <div class="col-11">
+      <table class="table table-bordered">
+        <thead>
+        <tr class>
+          <th scope="col">Computer</th>
+          <th scope="col">Nickname</th>
+          <th scope="col">IP</th>
+          <th scope="col">MAC</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Main</td>
+          <td>192.140.90.23</td>
+          <td>00:00:00:a1:2b:cc</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Admin PX</td>
+          <td>192.140.90.20</td>
+          <td>00:00:00:a1:2b:cc</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>TEST</td>
+          <td>192.140.90.11</td>
+          <td>TEST</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Jacob</td>
+          <td>192.140.90.47</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Jacob</td>
+          <td>192.140.90.1</td>
+          <td>@fat</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
-<div class="computers">
-  <label for="textbox" class="computer-selected-show">Computers :</label>
-</div>
+<button>Add Computer</button>

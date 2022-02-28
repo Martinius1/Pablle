@@ -1,4 +1,11 @@
-
+.scroll{
+  padding:4px;
+  width: 100%;
+  height: 90%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
 
 .table{
   width: 55vw;
@@ -60,14 +67,10 @@
 .card-background{
   background-color: #EEEEEE;
   height: 6%;
-  justify-content: left;
-  align-items: center;
-  display: flex;
+  position: fixed;
   border: 4px solid darkgrey;
   width: 12vw;
-
-  margin-top: 3vh;
-  margin-left: 1vw;
+  padding: 10px;
 
 
   .pc-header{
